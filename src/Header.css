@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: .1px solid lightgrey;
+    padding: 10px 0;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_left>img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.header_search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header_search>input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.header_right{
+    display: flex;
+    position: relative;
+}
+
+.header_rignt_underLine{
+    transition: .4s;
+    width: 10%;
+    background-color: black;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    border-radius: 5px;
+}
